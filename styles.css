@@ -1,0 +1,176 @@
+body {
+  /* background-color: #eeeeec; */
+  background-image: url(./background.jpg);
+  background-size: auto !important;
+}
+
+/* .maincontainer {
+  /* border: 1px solid black !important; */
+  /* height: 100px !important; */
+
+
+.search-bar {
+  background-color: #fdfeff;
+  margin: auto;
+  width: 40%;
+  margin-top: 70px;
+  margin: 60px auto;
+  border-radius: 6px;
+  box-shadow: 6px 6px 6px rgb(233, 229, 222);
+}
+
+.search-bar-box {
+  padding: 8px 12px;
+}
+
+.search-btn {
+  background-color: #11cdef !important;
+  border: none;
+  width: 70%;
+  height: 100%;
+  border-radius: 9px;
+  color: white;
+  font-weight: bolder;
+}
+
+.profile-main {
+  background-color: #fdfeff;
+  margin: auto;
+  width: 50%;
+
+  margin-top: 70px;
+  margin: 60px auto;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px rgb(233, 229, 222);
+}
+
+/* .header {
+  border: 1px solid blue;
+} */
+
+.button-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .connect-btn {
+  background-color: #11cdef !important;
+  border: none;
+}
+
+.message-btn {
+  background-color: #172b4d !important;
+  border: none;
+} */
+
+.img_div {
+  height: 100px;
+  width: 100px;
+  background-color: #172b4d;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: -38px;
+  background-image: url(./person.jpg);
+  background-size: cover;
+}
+
+/* Description */
+
+.description {
+  /* border: 1px solid saddlebrown; */
+  margin-top: 32px;
+  /* width: 60%; */
+}
+
+.number_count {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #525f7f;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  /* margin-right: 10px; */
+}
+
+.number_count_text {
+  font-size: 0.875rem;
+  color: #adb5bd;
+  /* margin-right: 10px; */
+
+}
+
+/* Bio Section */
+
+.bio-section {
+  margin-top: 32px;
+}
+
+.user-name {
+  font-size: 1.0625rem;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #32325d;
+}
+
+.user-age {
+  font-weight: 300 !important;
+}
+
+.user-address {
+  font-weight: 300 !important;
+}
+
+.user-info {
+  font-family: inherit;
+  font-weight: 600 !important;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #32325d;
+  font-size: 0.8125rem;
+}
+
+.user-detail {
+  color: #525f7f;
+}
+
+/* Footer */
+.footer-para {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #525f7f;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #5e72e4;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 575px) and (min-width: 300px) {
+  .connect-btn {
+    font-size: 8px;
+  }
+
+  .message-btn {
+    font-size: 8px;
+  }
+
+  .profile-main {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .search-btn {
+    font-size: 10px;
+  }
+
+  .search-box {
+    font-size: 10px;
+  }
+}

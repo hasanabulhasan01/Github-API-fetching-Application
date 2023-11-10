@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="container-fluid maincontainer">
+      <!-- Content here -->
+
+      <div class="search-bar">
+        <div class="row justify-content-center search-bar-box">
+          <div
+            class="col-8 col-md-8 d-flex justify-content-center align-items-center"
+          >
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control search-box"
+                placeholder="Enter Github User Name"
+                aria-label="Recipient's username"
+                aria-describedby="basic-addon2"
+                id="searchInput"
+              />
+            </div>
+          </div>
+          <div
+            class="col-4 col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <button class="search-btn" onclick="getUserInfo()">Search</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-main">
+        <div class="container text-center">
+          <!-- Header Section -->
+          <div class="row justify-content-between header">
+            <div class="col-3 col-sm-4 col-md-4 button-col">
+              <!-- <button type="button" class="btn btn-primary btn-sm connect-btn">
+                Connect
+              </button> -->
+            </div>
+            <div class="col-6 col-sm-4 col-md-4">
+              <div class="img_div" id="img_avatar">
+                <img src="" alt="" />
+              </div>
+            </div>
+            <div class="col-3 col-sm-4 col-md-4 button-col">
+              <!-- <button type="button" class="btn btn-primary btn-sm message-btn">
+                Message
+              </button> -->
+            </div>
+          </div>
+
+          <!-- Description Count-->
+
+          <div class="row justify-content-between description">
+            <div class="col-md-4 offset-md-4 description_content">
+              <div class="row justify-content-evenly">
+                <div class="col-4 number_count" id="followers-count">00</div>
+                <div class="col-4 number_count" id="following-count">00</div>
+                <div class="col-4 number_count" id="repos-count">00</div>
+              </div>
+
+              <div class="row justify-content-evenly">
+                <div class="col-4 number_count_text">Followers</div>
+                <div class="col-4 number_count_text">Following</div>
+                <div class="col-4 number_count_text">Repos</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bio Section -->
+
+          <div class="row bio-section">
+            <div class="col-md-4 offset-md-4">
+              <div class="row justify-content-center">
+                <div class="col-10">
+                  <h3 class="user-name" id="username">
+                    Mark Henry
+                    <!-- <span class="user-age">, 27</span> -->
+                  </h3>
+                </div>
+              </div>
+
+              <div class="row justify-content-center">
+                <div class="col-10">
+                  <span class="user-address" id="useraddress"
+                    >Bucharest, Romania</span>
+                    <br><br>
+                </div>
+              </div>
+
+              <!-- <div class="row justify-content-center mt-3">
+                <div class="col-10">
+                  <h5 class="user-info">
+                    Solution Manager - Creative Tim Officer
+                    <span class="user-age">, 27</span>
+                  </h5>
+                  <h5 class="user-info">
+                    Solution Manager - Creative Tim Officer
+                  </h5>
+                </div>
+              </div> -->
+
+              <div class="row justify-content-center mt-3">
+                <div class="col-10">
+                  <h6 class="user-detail">Work: ABC Company</h6><br>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4" />
+
+          <!-- <div class="row justify-content-center footer-section">
+            <div id="organization" class="col-10 footer-para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Dignissimos aut ab tempora repudiandae, qui praesentium cupiditate
+              ex nisi. Ea, recusandae?
+            </div>
+          </div> -->
+
+          <div class="row justify-content-center">
+            <div class="col-4 mb-5">
+              <a href= "" class="footer-link">Github Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
